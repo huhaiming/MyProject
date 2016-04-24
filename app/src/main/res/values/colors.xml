@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navbarButtonSelectedTextColor">#F8B551</color>
+    <color name="navbarButtonUnSelectedTextColor">@color/color666666</color>
+    <color name="color333333">#333333</color>
+    <color name="color666666">#666666</color>
+    <color name="background">#F5F5F5</color>
+    <color name="stroke_line">#eaeaea</color>
+    <color name="color1">#192648</color>
+    <color name="color2">#a3a8b6</color>
+    <color name="color3">#c6c6c6</color>
+    <color name="color4">#037BFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_loading">#50000000</color>
+    <color name="color_select">#2ec8cb</color>
+    <color name="color_default">#999999</color>
+    <color name="color_location_bg">#F0F0F0</color>
+    <color name="first_location_bg">#FBFBFB</color>
+    <color name="first_location_tx">#666666</color>
+    <color name="orange">#da7431</color>
+    <color name="change_city">#333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="search_hor_divide">#eeeeee</color>
+    <color name="search_ver_divide">#cccccc</color>
+    <color name="search_textcolor">#666666</color>
+    <color name="search_clear_textcolor">#2ec7cc</color>
+    <color name="searchlist_background_textcolor">#fbfbfb</color>
+    <color name="searchlist_class_textcolor">#484848</color>
+    <color name="choose_reset">#a4dfe1</color>
+    <color name="class_money_red">#cf1b1b</color>
+    <color name="class_listener">#b56b57</color>
+    <color name="merchant_laber">#e8e8e8</color>
+    <color name="merchant_teacher_count">#999999</color>
+
+    <color name="app_backgroud">#f7f7f7</color>
+    <color name="title_backgroud">#f8b651</color>
+
+    <color name="clock_circle">#34302A</color>
+    <!-- 我的模块 -->
+    <color name="mine_name">#ffffff</color>
+    <color name="mine_text">#333333</color>
+    <color name="mine_divider">#cccccc</color>
+    <color name="mine_border">#dcdcdc</color>
+    <color name="mine_text2">#999999</color>
+
+    <!-- 注册登录模块 -->
+    <color name="register_color">#2ec7cc</color>
+    <!-- 全局字体颜色 -->
+    <color name="text_color">#222222</color>
+
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+
+    <color name="calendar_disable_cell_textcolor">#e7e7e7</color>
+    <color name="calendar_color">#2ec8cb</color>
+
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">@color/calendar_color</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_selected_day_bg2">#ff77be3c</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#e7e7e7</color>
+    <color name="calendar_text_active">@color/white</color>
+    <color name="calendar_text_selected">@color/calendar_color</color>
+    <color name="calendar_text_unselectable">#e7e7e7</color>
+    <color name="calendar_text_mark">#ff77be3c</color>
+
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

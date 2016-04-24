@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navbarHeight"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/homePage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckedTextView
+            android:id="@+id/homePageIcon"
+            android:layout_width="@dimen/navbarIconWidth"
+            android:layout_height="@dimen/navbarIconHeight"
+            android:background="@drawable/navbar_homepage_button_selector"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:id="@+id/homePageText"
+            style="@style/NavBarTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="首页" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timeTable"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckedTextView
+            android:id="@+id/timeTableIcon"
+            android:layout_width="@dimen/navbarIconWidth"
+            android:layout_height="@dimen/navbarIconHeight"
+            android:background="@drawable/navbar_timetable_button_selector"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:id="@+id/timeTableText"
+            style="@style/NavBarTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="课表" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teacher"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckedTextView
+            android:id="@+id/teacherIcon"
+            android:layout_width="@dimen/navbarIconWidth"
+            android:layout_height="@dimen/navbarIconHeight"
+            android:background="@drawable/navbar_teacher_button_selector"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:id="@+id/teacherText"
+            style="@style/NavBarTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="老师" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mine"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckedTextView
+            android:id="@+id/mineIcon"
+            android:layout_width="@dimen/navbarIconWidth"
+            android:layout_height="@dimen/navbarIconHeight"
+            android:background="@drawable/navbar_mine_button_selector"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:id="@+id/mineText"
+            style="@style/NavBarTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="自己" />
+
+    </LinearLayout>
+</LinearLayout>
